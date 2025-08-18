@@ -1,0 +1,9 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.shirasaya.evesample",
+        "sha256_cert_fingerprints":
+        ["31:4D:A6:28:42:62:8E:B6:FA:F9:A8:5C:7B:46:2E:48:96:8C:19:A8:1F:16:6D:49:56:0A:C3:FC:BD:68:E1:C7"]
+    }
+}]
