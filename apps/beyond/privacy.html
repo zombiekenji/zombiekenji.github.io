@@ -46,11 +46,11 @@
   .meta { color: var(--muted); font-size: .9rem; margin: 0 0 2rem; }
   .lead { font-size: 1.05rem; }
   .card { background: var(--card); border-radius: .6rem; padding: .25rem 1rem; margin: 1rem 0; }
+  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
   .table-wrap { overflow-x: auto; margin: 1rem 0; }
   table { border-collapse: collapse; width: 100%; min-width: 30rem; font-size: .95rem; }
   th, td { text-align: left; vertical-align: top; padding: .6rem .75rem; border-bottom: 1px solid var(--rule); }
   th { font-weight: 600; }
-  footer { margin-top: 3rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .9rem; }
 </style>
 </head>
 <body>
@@ -59,10 +59,10 @@
 <h1>Privacy Policy</h1>
 <p class="meta">Beyond (the “App”) · Last updated: November 14, 2026</p>
 
-<p class="lead">This Privacy Policy explains what information is handled when you use Beyond, a mobile puzzle game published by shirasaya (“we”, “us”), an individual developer based in Japan.</p>
+<p class="lead">This Privacy Policy explains what information is handled when you use Beyond, a mobile game published by shirasaya (“we”, “us”), an individual developer based in Japan.</p>
 
 <div class="card">
-<p><strong>In short:</strong> we do not ask you to create an account and we do not collect your name, email address, or precise location. Your game progress is stored on your device. The advertising service used in the App (Google AdMob) collects information such as your device’s advertising identifier and IP address in order to show and measure ads, and Google Firebase collects usage and crash information that helps us see how the App performs.</p>
+<p><strong>In short:</strong> We do not ask you to create an account, and we do not collect your name, email address, or precise location. Your game progress is stored on your device. The advertising service used in the App (Google AdMob) collects information such as your device’s advertising identifier and IP address in order to show and measure ads. Google Firebase collects usage and crash information that helps us see how the App performs.</p>
 </div>
 
 <h2>1. Information stored on your device</h2>
@@ -75,7 +75,7 @@
 <p>Deleting the App from your device deletes this data. We have no way to recover it.</p>
 
 <h2>2. Information collected by advertising</h2>
-<p>The App shows rewarded video ads that you may choose to watch in exchange for in-game rewards. Ads are delivered by Google AdMob, which acts as an independent controller of the data it collects. AdMob may collect and process:</p>
+<p>The App shows advertising, which may include video ads that you choose to watch in exchange for in-game rewards. Ads are delivered by Google AdMob, which acts as an independent controller of the data it collects. AdMob may collect and process:</p>
 <ul>
   <li>Your device’s advertising identifier (IDFA on iOS, Advertising ID on Android)</li>
   <li>IP address, and coarse location derived from it</li>
@@ -85,53 +85,40 @@
 <p>This information is used to deliver ads, measure their performance, prevent fraud and abuse, and — where permitted — to personalize the ads you see.</p>
 
 <h2>3. Analytics and crash reporting</h2>
-<p>The App uses Google Firebase to understand how the App is used and to find problems that we cannot reproduce ourselves. This is collected automatically as you play:</p>
+<p>The App uses Google Firebase to understand how the App is used and find problems that we cannot reproduce ourselves. This is collected automatically as you play:</p>
 <ul>
-  <li><strong>Firebase Analytics:</strong> app events such as launches, screens opened, and stages started or cleared, together with a randomly generated app instance identifier, device model, operating system version, app version, and coarse location derived from your IP address</li>
+  <li><strong>Firebase Analytics:</strong> app events such as launches, screens opened, and game progress, together with a randomly generated app instance identifier, device model, operating system version, app version, and coarse location derived from your IP address</li>
   <li><strong>Firebase Crashlytics:</strong> if the App crashes or hits a serious error, a report containing the technical state at that moment — such as the error, the stack trace, device model, operating system version, and app version</li>
 </ul>
+<p>Where the law requires your consent, such as in the European Economic Area and the United Kingdom, Firebase Analytics is turned on only after you agree.</p>
 <p>We use this in aggregate to improve the App. It does not contain your name or email address, and we do not use it to identify you.</p>
 
+<h2>4. Third-party services</h2>
+<p>The services described above are provided by the following companies, each of which handles the information it collects under its own privacy policy:</p>
 <div class="table-wrap">
 <table>
   <thead>
     <tr><th>Service</th><th>Provider</th><th>Purpose</th><th>Policy</th></tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Google AdMob</td>
-      <td>Google LLC / Google Ireland Ltd.</td>
-      <td>Serving and measuring in-app advertising</td>
-      <td>
-        <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a><br>
-        <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information</a>
-      </td>
-    </tr>
-    <tr>
-      <td>Firebase Analytics, Crashlytics</td>
-      <td>Google LLC / Google Ireland Ltd.</td>
-      <td>Usage analytics and crash reporting</td>
-      <td>
-        <a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase Privacy</a><br>
-        <a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a>
-      </td>
-    </tr>
+    <tr><td>Google AdMob</td><td>Google LLC / Google Ireland Ltd.</td><td>Serving and measuring in-app advertising</td><td><a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a><br><a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information</a></td></tr>
+    <tr><td>Firebase Analytics, Crashlytics</td><td>Google LLC / Google Ireland Ltd.</td><td>Usage analytics and crash reporting</td><td><a href="https://firebase.google.com/support/privacy" rel="noopener">Firebase Privacy</a><br><a href="https://policies.google.com/privacy" rel="noopener">Privacy Policy</a></td></tr>
   </tbody>
 </table>
 </div>
 
-<h2>4. Information you send us directly</h2>
+<h2>5. Information you send us directly</h2>
 <p>If you contact us by email, we receive your email address and whatever you choose to write, including any device information you include in your message. We use it only to respond to you and to investigate the issue you reported, and we delete correspondence once it is no longer needed for that purpose.</p>
 
-<h2>5. What we do not do</h2>
+<h2>6. What we do not do</h2>
 <ul>
   <li>We do not sell or rent your personal information.</li>
-  <li>We do not require an account, sign-in, or any registration.</li>
+  <li>We do not require an account, sign-in, or any registration to play.</li>
   <li>We do not access your contacts, photos, microphone, camera, or precise location.</li>
   <li>We do not use the App’s motion sensor data (used for tilt controls) for anything other than gameplay on your device.</li>
 </ul>
 
-<h2>6. Your choices</h2>
+<h2>7. Your choices</h2>
 <h3>Limiting ad personalization</h3>
 <ul>
   <li><strong>iOS:</strong> Settings → Privacy &amp; Security → Tracking, and Settings → Privacy &amp; Security → Apple Advertising.</li>
@@ -139,26 +126,27 @@
 </ul>
 <p>You can also review and adjust Google’s ad settings at <a href="https://adssettings.google.com/" rel="noopener">adssettings.google.com</a>. Limiting personalization does not remove ads; it makes them less relevant to you.</p>
 <h3>Deleting your data</h3>
-<p>Uninstalling the App removes all game data stored on your device. For data held by Google in connection with advertising, analytics, or crash reporting, please use the controls above or contact Google directly.</p>
+<p>Uninstalling the App removes all game data stored on your device. For data held by Google in connection with advertising, analytics, or crash reports, please use the controls above or contact Google directly.</p>
 
-<h2>7. Legal bases and your rights</h2>
+<h2>8. Legal bases and your rights</h2>
+<p>Where the law requires it, we ask for your consent before personalized ads are shown or analytics is collected, and you can change your choice later from the App’s settings. Crash reports are collected on the basis of our legitimate interest in keeping the App working reliably.</p>
 <p>If you are in the European Economic Area, the United Kingdom, or another region with comparable law, you have rights to access, correct, delete, and object to the processing of your personal data, and to lodge a complaint with your local supervisory authority.</p>
-<p>Because we hold no information that identifies you, we usually cannot locate data about a specific person on our side. Requests concerning advertising, analytics, or crash data should be directed to Google. For anything else, email us at the address below and we will help where we can.</p>
-<p>If you are a California resident, you have rights under the CCPA/CPRA, including the right to know, delete, and opt out of the “sale” or “sharing” of personal information. We do not sell personal information. To exercise choices about interest-based advertising, use the device controls described in section 6.</p>
+<p>Because we hold no information that identifies you, we usually cannot locate data about a specific person on our side. Requests concerning advertising, analytics, or crash reports should be directed to Google. For anything else, email us at the address below and we will help where we can.</p>
+<p>If you are a California resident, you have rights under the CCPA/CPRA, including the right to know, delete, and opt out of the “sale” or “sharing” of personal information. We do not sell personal information. To exercise choices about interest-based advertising, use the device controls described under “Your choices”.</p>
 
-<h2>8. Children</h2>
+<h2>9. Children</h2>
 <p>The App is not directed to children under 13 (or under 16 in the European Economic Area and the United Kingdom), and we do not knowingly collect personal information from them. If you believe a child has provided personal information through the App, please contact us and we will take appropriate steps.</p>
 
-<h2>9. International transfers</h2>
-<p>Google may process the information described in sections 2 and 3 on servers located outside your country, including in the United States, in accordance with its own privacy policy and applicable transfer safeguards.</p>
+<h2>10. International transfers</h2>
+<p>Google may process the information described above on servers located outside your country, including in the United States, in accordance with its own privacy policy and applicable transfer safeguards.</p>
 
-<h2>10. Security</h2>
+<h2>11. Security</h2>
 <p>Game data stays within the App’s private storage on your device, protected by the operating system’s app sandbox. No method of storage or transmission is completely secure, and we cannot guarantee absolute security.</p>
 
-<h2>11. Changes to this policy</h2>
+<h2>12. Changes to this policy</h2>
 <p>We may update this policy as the App changes — for example, if we add new features or services. When we do, we will revise the “Last updated” date at the top of this page. Material changes will be reflected in the App before they take effect.</p>
 
-<h2>12. Contact</h2>
+<h2>13. Contact</h2>
 <p>Questions about this policy or about your data:</p>
 <p><a href="mailto:shirasayagames@gmail.com">shirasayagames@gmail.com</a></p>
 
